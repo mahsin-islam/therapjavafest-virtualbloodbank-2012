@@ -1,0 +1,5 @@
+CREATE TABLE user_table ( Member_Id int NOT NULL AUTO_INCREMENT, First_Name varchar(255)  NOT NULL, Last_Name varchar(255)  NOT NULL, User_Name varchar(255)  NOT NULL, Birth_Date int  NOT NULL, Birth_Month int  NOT NULL, Birth_Year int  NOT NULL, Password varchar(255)  NOT NULL, City varchar(255)  NOT NULL, Mobile_Number varchar(255)  NOT NULL, Email_Id varchar(255)  NOT NULL, PRIMARY KEY(Member_Id));
+
+INSERT INTO user_table VALUES (null, 'Asraf', 'Uddin', 'Ratul Ahmed', '13', '5', '2012', 'r@tul13', 'dhaka', '01916144845', 'ratul13@live.com');
+
+UPDATE registered_user_info SET First_Name='late', Last_Name='lotif', User_Name="letu", Birth_Date='13', Birth_Month='7', Birth_Year='1969', Blood_Group='O-', Password='111', City='Khulna', Mobile_Number='01234567890', Email_Id='ratul840@yahoo.com' WHERE User_Name='un0';

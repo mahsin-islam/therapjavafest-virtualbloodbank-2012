@@ -1,0 +1,95 @@
+
+
+.container_16 {
+    min-height: 500px;
+}
+/*banner*/
+.banner {
+    background-image: url("../img/blood.jpg"); background-repeat:no-repeat;;
+    height: 260px;
+}
+
+/* top nav */
+.top-nav {
+    color: black;
+    margin-top: 5px;
+    
+}
+
+.top-nav a{
+    color: black;
+    font-size: 14px;
+    
+}
+.top-nav a:hover {
+    color: white;
+    
+}
+
+.top-nav li {
+    display: inline;
+    background: #C5DBB8;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+
+/* left sidebar */
+.left-sidebar {
+    background: #DBDFE8;
+    padding: 5px;
+    min-height: 400px;
+}
+
+.left-sidebar a {
+    color: #9A1822;
+    font-size: 14px;
+}
+
+/* main content panel */
+
+.contentpanel {
+    background: #C5DBB8;
+    color: black;
+    font-size: 14px;
+    min-height: 400px;
+    padding: 5px;
+}
+
+tbody {
+    background: white;
+    padding: 5px;
+}
+th {
+    background: #a4b57b;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid white;
+}
+td {
+    padding: 5px;
+    border: 1px solid #a4b57b;
+}
+
+/* footer */
+.footer {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.third_col
+{
+	/*background: #C5DBB8;*/
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+input[type="submit"]
+{
+	background: #C5D0B8;
+	color: black;
+	width: 70px;
+	font-weight: bold;
+}
